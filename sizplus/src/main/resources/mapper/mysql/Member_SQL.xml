@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="member">
+	<!-- 1번  -->
+	<!-- SQL.xml(1번) -> DAO(2번) -> ServiceImpl(3번) -> Service(4번) -> controller(5번) -> jsp -->
+	<insert id="insertMemberProc" parameterType="hashmap">
+		/*insertMngrManagerProc*/
+		insert into e_member(
+			member_id,
+			member_pw,
+			member_pwc,
+			member_nickname,
+			member_phone_num,
+			member_birth,
+			member_gender,
+			member_way,
+			reg_dt
+		 ) values(
+			#{memberId},
+			#{memberPw},
+			#{memberPwc},
+			#{memberNickname},
+			#{memberPhoneNum},
+			#{memberBirth},
+			#{memberGender},
+			#{memberWay},
+			now()
+		)
+	</insert>
+	
+	<!-- 회원정보 수정 -->
+	<update id="updateMemberProc" parameterType="hashmap" >
+		/*updateMngrManagerProc*/
+		update e_member 
+		set 
+		member_pw = #{memberPw}
+		where
+		member_id = #{memberId}
+	</update>
+	
+	<select id="selectUserLoginView" parameterType="sizplus.user.member.dao.MemberVO" resultType="sizplus.user.member.dao.MemberVO">
+		select
+			member_id memberId, 
+			member_pw memberPw,
+			member_pwc memberPwc,
+			member_nickname memberNickname,
+			member_birth memberBrith,
+			member_gender memberGender
+			member_way memberWay
+		from e_member
+		where 
+			member_id = #{memberId}
+			and
+			member_pw = #{memberPw}
+			and
+			member_pwc = #{memberPwc}
+			and
+			member_nickname = #{memberNickname}
+			and
+			member_birth = #{memberBrith}
+			and
+			member_gender = #{memberGender}
+			and
+			member_way = #{memberWay}
+			
+	</select>
+	
+</mapper>
