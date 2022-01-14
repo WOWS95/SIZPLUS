@@ -321,29 +321,29 @@
 							<a href="products.html" style="padding-left: 415px;">더보기 <i class="fa fa-angle-right"></i></a><br>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">1.그만물어봐</a>
+									<a href="">공지로 채워나갈 곳</a>
 								</div>
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">1.그만물어봐</a>
+									<a href="">공지로 채워나갈 곳</a>
 								</div>
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">1.그만물어봐</a>
-								</div>
-
-							</div>
-							<div class="tn-news" style="margin-bottom: 19.5px;">
-								<div class="tn-title">
-									<a href="">1.그만물어봐</a>
+									<a href="">공지로 채워나갈 곳</a>
 								</div>
 
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">1.그만물어봐</a>
+									<a href="">공지로 채워나갈 곳</a>
+								</div>
+
+							</div>
+							<div class="tn-news" style="margin-bottom: 19.5px;">
+								<div class="tn-title">
+									<a href="">공지로 채워나갈 곳</a>
 								</div>
 							</div>
 						</div>
@@ -351,29 +351,29 @@
 							<a href="products.html" style="padding-left: 415px;">더보기 <i class="fa fa-angle-right"></i></a><br>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">1.공지사항</a>
+									<a href="">Q&A</a>
 								</div>
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">2.공지사항</a>
+									<a href="">Q&A</a>
 								</div>
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">3.공지사항</a>
-								</div>
-
-							</div>
-							<div class="tn-news" style="margin-bottom: 19.5px;">
-								<div class="tn-title">
-									<a href="">4.공지사항</a>
+									<a href="">Q&A</a>
 								</div>
 
 							</div>
 							<div class="tn-news" style="margin-bottom: 19.5px;">
 								<div class="tn-title">
-									<a href="">5.공지사항</a>
+									<a href="">Q&A</a>
+								</div>
+
+							</div>
+							<div class="tn-news" style="margin-bottom: 19.5px;">
+								<div class="tn-title">
+									<a href="">Q&A</a>
 								</div>
 							</div>
 						</div>

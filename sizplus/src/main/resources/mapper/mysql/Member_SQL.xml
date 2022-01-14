@@ -9,7 +9,6 @@
 		insert into e_member(
 			member_id,
 			member_pw,
-			member_pwc,
 			member_nickname,
 			member_phone_num,
 			member_birth,
@@ -19,7 +18,6 @@
 		 ) values(
 			#{memberId},
 			#{memberPw},
-			#{memberPwc},
 			#{memberNickname},
 			#{memberPhoneNum},
 			#{memberBirth},
@@ -41,28 +39,17 @@
 	
 	<select id="selectUserLoginView" parameterType="sizplus.user.member.dao.MemberVO" resultType="sizplus.user.member.dao.MemberVO">
 		select
-			member_id memberId, 
-			member_pw memberPw,
-			member_pwc memberPwc,
-			member_nickname memberNickname,
-			member_birth memberBrith,
-			member_gender memberGender
-			member_way memberWay
+			member_id, 
+			member_pw
+		
+		
 		from e_member
+		
 		where 
 			member_id = #{memberId}
 			and
-			member_pw = #{memberPw}
-			and
-			member_pwc = #{memberPwc}
-			and
-			member_nickname = #{memberNickname}
-			and
-			member_birth = #{memberBrith}
-			and
-			member_gender = #{memberGender}
-			and
-			member_way = #{memberWay}
+			member_pw = #{memberPw};
+		
 			
 	</select>
 	
